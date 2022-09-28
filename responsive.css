@@ -1,0 +1,226 @@
+/* Responsive Brekapoints */
+@media screen and (max-width: 500px) {
+/* Navbar */
+  .navbar-brand img{
+    width: 120px;
+  }
+
+  /* Header */
+  #header{
+    height: 80vh;
+  }
+  .hero-img img{
+    display: none;
+  }
+
+  .hero-text h1{
+    text-align: center;
+  }
+  
+  .hero-text p{
+    text-align: center;
+  }
+
+  .bottom-hero{
+    width: 100%;
+    height: 150px;
+    background-image: none;
+    background-color: #CE643A;
+  }
+
+  .btn-hero{
+    margin-bottom: 20px;
+    margin-left: 120px !important;
+  }
+
+  .mid-box{
+    width: 350px;
+    height: 80px;
+    margin: 0px auto;
+  }
+
+  .mid-box img{
+  height: 60%;
+  }
+
+  /*  Service  */
+  #service{
+  margin-top:0px;
+  }
+
+  .card-service{
+    width: 70%;
+    height: 250px;
+    margin: 0px auto;
+  }
+
+  .card-service img{
+    width: 50%;
+    margin-left: 70px;
+  }
+
+  /*  More  */
+  .more-content h1{
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .more-content p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    text-align: justify;
+    padding: 0px 20px;
+  }
+
+  /* About */
+  .about-text{
+    margin-top: 28px;
+  }
+
+  .about-text h1{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .about-text .about-text-center{
+    text-align: center;
+  }
+
+  .about-text p{
+    text-align: justify;
+    font-size: 10px;
+  }
+
+  .about-text h2{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .icon-content img{
+    display: none;
+  }
+
+  .left-about img{
+    top: 30px;
+    width: 325px;
+    height: 350px;
+    left: 25px;
+  }
+
+  .shadow-img-1{
+    width: 268px;
+    height: 290px;
+    margin-top: 70px;
+    margin-left: 52px;
+  }
+  
+
+  /*  Contact */
+  .background-contact img{
+    display: none;
+  }
+
+  .background-contact{
+    height: 70vh;
+  }
+
+  .contact-overlay{
+    position: absolute;
+    top: 40px;
+    left: 3px;
+  }
+  
+  .text-contact h1{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .text-contact h2{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .text-contact p{
+    text-align: center;
+  }
+
+  .card-contact{
+    height: 300px;
+    padding: 40px 32px;
+  }
+
+  .card-contact p{
+    font-weight: 500;
+    color: #CE643A;
+    font-size: 14px;
+  }
+  
+  
+  .form-control{
+    height: 35px !important;
+    background: rgba(97, 96, 96, 0.72);
+  }
+  
+  .form-floating label{
+    font-size: 12px;
+  }
+
+  .bottom-form p{
+    color: #808080;
+    font-size: 10px;
+  }
+  
+  .button-contact{
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+
+  /* Footer  */
+  footer{
+    height: 200px;
+  }
+  
+  .sosmed{
+    margin-top: 20px;
+  }
+  
+  .sosmed a img{
+    margin-right: 12px;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .linked {
+    margin-top: 20px;
+  }
+
+  .linked a{
+    margin-left: 0px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+
+  .copyright{
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  .terms{
+    margin-left: auto;
+  }
+  
+  .terms p{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,445 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Navbar */
+.navbar-brand img{
+  width: 160px;
+}
+
+.nav-item a{
+  font-weight: 700;
+}
+
+.navbar-color{
+  background-color:#CE643A;
+}
+
+.navbar-shadow{
+  background-color:#CE643A;
+  box-shadow: 0px 10px 17px -14px rgba(0,0,0,0.75);
+}
+
+
+/* Header */
+#header{
+  height: 100vh;
+}
+.hero{
+  background-color: #CE643A;
+  width: 100%;
+}
+
+.hero-text{
+  color: #fff;
+  margin-top: 40%;
+}
+
+.hero-text h1{
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.hero-text p{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn-hero{
+  width: 135px;
+  height: 50px;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.btn-hero:hover{
+  background-color: #54BD95;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.bottom-hero{
+  width: 100%;
+  height: 250px;
+  background-image: url(img/wave.png);
+  background-repeat: no-repeat;
+}
+
+.hero-img img{
+  width: 80vh;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.mid-box{
+  width: 600px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 10px 10px 17px -12px rgba(0,0,0,0.75);
+}
+
+.mid-box img{
+  height: 70%;
+}
+
+
+/* Service */
+#service{
+  margin-top:300px;
+}
+
+.text-mid-service h1{
+  font-weight: 700;
+}
+
+.text-mid-service h2, p{
+  font-weight: 500;
+}
+
+.card-service{
+  background-color: #F7F7F7;
+  box-shadow: 8px 12px 15px -3px rgba(0,0,0,0.1);
+  border-radius:15px;
+  width: 90%;
+  height:265px;
+}
+
+.card-service:hover{
+  background-color:#CE643A;
+  transition: all .3s ease-in;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.card-service:hover img{
+  transform: scale(1.08);
+  transition: all .3s ease-in;
+}
+
+.card-service img{
+  width: 50%;
+  margin: 30px 0px 30px 60px;
+}
+
+.card-service h1{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+/* More */
+.background-more{
+  background-image: url(img/more-backgorund.png);
+  width: 100%;
+  height: 100vh;
+}
+
+.more-content{
+  width: 70vw;
+  height: 70vh;
+  background-color: #F7F7F7;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px -4px rgba(0,0,0,0.1);
+}
+
+.more-content img{
+  width: 80%;
+  padding-top: 25px;
+}
+
+.more-content h1{
+  color: #CE643A;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 25px;
+  width: 90%;
+}
+
+.more-content p{
+  font-size: 15px;
+  font-weight: 600;
+  width: 90%;
+}
+
+
+/* About */
+#about{
+  overflow: hidden;
+}
+
+.background-about{
+  background-image: url(img/about-background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-about{
+  position: relative;
+}
+
+.shadow-img-1{
+  width: 300px;
+  height: 380px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 15px 44px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 35px;
+}
+
+.shadow-img-2{
+  width: 300px;
+  height: 80px;
+  background: rgba(45, 23, 23, 0.26);
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.box-bottom-about{
+  position: absolute;
+  bottom: 12px;
+  left: 35px;
+  width: 300px;
+  height: 80px;
+  border-radius: 20px;
+  background: rgba(45, 23, 23, 0.68);
+}
+
+.angka h1{
+  font-size: 28px;
+  color: #fff;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.keterangan p{
+  font-size: 10px;
+  color: #fff;
+  margin-top: -5px;
+}
+
+.left-about img{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 365px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+.about-text{
+  margin-top: 80px;
+  color: #fff;
+}
+
+.about-text h1{
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.about-text p{
+  font-weight: 500;
+}
+
+.about-text h2{
+  color: #ECFF76;
+  font-weight: 700;
+  margin-top: 85px;
+}
+
+.right-about{
+  position: relative;
+}
+
+.icon-content img{
+  position: absolute;
+  top: 0;
+  width: 300px;
+}
+
+
+/* Contact */
+.background-contact{
+  position: relative;
+  background-color: #CE643A;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-contact img{
+  width: 80%;
+  height: 100vh;
+  margin-left: 553px;
+}
+
+.contact-overlay{
+  position: absolute;
+  top: 200px;
+  left: 130px;
+}
+
+.text-contact{
+  color: #fff;
+}
+
+.text-contact h1{
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.text-contact h1 span{
+  color: #E3F415;
+}
+
+.text-contact p{
+  font-weight: 700;
+}
+
+.text-contact h2{
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+
+.card-contact{
+    width: 80%;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 45px 38px;
+}
+
+
+.card-contact p{
+  font-weight: 500;
+  color: #CE643A;
+}
+
+
+.form-control{
+  height: 50px !important;
+  background: rgba(97, 96, 96, 0.72);
+}
+
+.form-floating label{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bbb8b8;
+}
+
+.button-contact{
+  width: 100%;
+  height: 50px;
+  background-color: #CE643A;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  transition: all ease-in-out .2s;
+}
+
+.button-contact:hover{
+  background-color: #54BD95;
+  cursor: pointer;
+}
+
+.bottom-form p{
+  color: #808080;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.bottom-form p a{
+  color: #CE643A;
+  text-decoration: none;
+}
+
+.bottom-form p a:hover{
+  color: #54BD95;
+}
+
+/* Footer */
+footer{
+  width: 100%;
+  height: 300px;
+}
+
+.sosmed{
+  margin-top: 80px;
+}
+
+.sosmed a img{
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.linked {
+  margin-top: 80px;
+}
+
+.linked a{
+  display: block;
+  color: #808080;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.linked a:hover{
+  color: #CE643A;
+}
+
+.copyright{
+  margin-top: 50px;
+}
+
+.terms{
+  margin-left: auto;
+}
+
+.terms p{
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.terms a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+
+.terms a:hover{
+  color: #CE643A;
+}
